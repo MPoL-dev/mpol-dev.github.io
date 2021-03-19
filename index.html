@@ -1,24 +1,50 @@
-<html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({ startOnLoad: true });</script>
 
-    Here is one mermaid diagram:
-    <div class="mermaid">
-        graph TD
-        A[Client] --> B[Load Balancer]
-        B --> C[Server1]
-        B --> D[Server2]
+    <div class="container">
+        <p class="lead">The MPoL-dev organization provides tools for Regularized Maximum Likelihood imaging and modeling
+        </p>
+
+        <h1 class="display-6">Packages</h1>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">MPoL</h5>
+                        <p class="card-text">Regularized maximum likelihood imaging for radio interferometers</p>
+                        <a href="https://mpol.readthedocs.io/" class="btn btn-primary">Documentation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">visread</h5>
+                        <p class="card-text">Tools for reading visibility data from CASA measurement sets</p>
+                        <a href="https://visread.readthedocs.io/" class="btn btn-primary">Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <p>Contact <a href="https://sites.psu.edu/iczekala/">Ian Czekala</a></p>
     </div>
 
-    And here is another:
-    <div class="mermaid">
-        graph TD
-        A[Client] -->|tcp_123| B(Load Balancer)
-        B -->|tcp_456| C[Server1]
-        B -->|tcp_456| D[Server2]
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
